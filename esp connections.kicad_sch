@@ -1663,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 69.85 114.3)
+			(xy 39.37 58.42) (xy 20.32 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 114.3) (xy 69.85 77.47)
+			(xy 20.32 58.42) (xy 20.32 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1683,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 134.62 118.11)
+			(xy 85.09 58.42) (xy 85.09 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 109.22) (xy 148.59 83.82)
+			(xy 99.06 53.34) (xy 99.06 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 148.59 109.22)
+			(xy 85.09 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1713,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 118.11 0)
+		(at 85.09 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1722,7 +1722,7 @@
 		(fields_autoplaced yes)
 		(uuid "26626eaf-4c3a-4c83-bf8a-ccb197bb21ba")
 		(property "Reference" "#PWR01"
-			(at 134.62 124.46 0)
+			(at 85.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 123.19 0)
+			(at 85.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 118.11 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 118.11 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 118.11 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1779,7 @@
 	)
 	(symbol
 		(lib_id "ESP8266:ESP-12F")
-		(at 111.76 104.14 0)
+		(at 62.23 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1788,7 +1788,7 @@
 		(fields_autoplaced yes)
 		(uuid "7efb524a-dfc2-44bc-af14-8327d6df39cf")
 		(property "Reference" "U1"
-			(at 111.76 83.82 0)
+			(at 62.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 			)
 		)
 		(property "Value" "ESP-12F"
-			(at 111.76 86.36 0)
+			(at 62.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 104.14 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 			)
 		)
 		(property "Datasheet" "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/"
-			(at 111.76 104.14 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1822,7 @@
 			)
 		)
 		(property "Description" "ESP8266 ESP-12E module, 22 pins, 2mm, PCB antenna"
-			(at 111.76 104.14 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1907,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_ABGR")
-		(at 148.59 78.74 90)
+		(at 99.06 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1916,7 +1916,7 @@
 		(fields_autoplaced yes)
 		(uuid "88a4d917-48ff-4ebb-a885-6d55943558f7")
 		(property "Reference" "D1"
-			(at 157.48 77.4699 90)
+			(at 107.95 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1925,7 @@
 			)
 		)
 		(property "Value" "LED_ABGR"
-			(at 157.48 80.0099 90)
+			(at 107.95 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +1934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 78.74 0)
+			(at 100.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 78.74 0)
+			(at 100.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(property "Description" "RGB LED, anode/blue/green/red"
-			(at 148.59 78.74 0)
+			(at 99.06 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1983,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 69.85 77.47 0)
+		(at 20.32 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1992,7 +1992,7 @@
 		(fields_autoplaced yes)
 		(uuid "bac36fc4-fb3d-419c-a628-61b459f28867")
 		(property "Reference" "#PWR02"
-			(at 69.85 81.28 0)
+			(at 20.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2001,7 @@
 			)
 		)
 		(property "Value" "VCC +3.3v"
-			(at 69.85 72.39 0)
+			(at 20.32 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 77.47 0)
+			(at 20.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 77.47 0)
+			(at 20.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 69.85 77.47 0)
+			(at 20.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -277,7 +277,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(U4-VO)": [
+        "3.3V"
+      ],
+      "Net-(U8-VH+)": [
+        "R_in = 27 Ohm"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
