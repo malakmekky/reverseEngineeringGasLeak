@@ -239,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -278,6 +279,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(U3-VOUT)": [
+        "5VA"
+      ],
       "Net-(U4-VO)": [
         "3.3V"
       ],
@@ -420,7 +424,7 @@
       "Root"
     ],
     [
-      "01d62a12-06f3-4f09-9401-65033d31d6b7",
+      "c02cc885-1f41-43c4-a7ce-2450c3fc4da4",
       "esp"
     ]
   ],

@@ -1721,7 +1721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26626eaf-4c3a-4c83-bf8a-ccb197bb21ba")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 85.09 68.58 0)
 			(effects
 				(font
@@ -1766,12 +1766,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b29eeb1-256e-425c-8e6c-3967067d4457")
+			(uuid "2cada68c-116f-416b-bd3b-f44ebd7e51e3")
 		)
 		(instances
 			(project "reverse engineering gas leak sensor"
-				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/01d62a12-06f3-4f09-9401-65033d31d6b7"
-					(reference "#PWR01")
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/c02cc885-1f41-43c4-a7ce-2450c3fc4da4"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1831,74 +1831,74 @@
 			)
 		)
 		(pin "9"
-			(uuid "e91b402a-df07-453c-a450-b381543cabe3")
+			(uuid "a46da0d4-68af-4922-b2ac-b170b43db725")
 		)
 		(pin "14"
-			(uuid "c3f1372a-aab3-4938-b1fc-1169a0a59989")
+			(uuid "5e531f70-f9a7-4dde-9ed4-59b0be0bad20")
 		)
 		(pin "20"
-			(uuid "679b2869-7dba-4c80-8850-717bc25b9bed")
+			(uuid "f88a468f-d593-4d80-a8ed-3851779a199f")
 		)
 		(pin "21"
-			(uuid "eb3fef01-0a83-4cf0-9b18-be008bb57930")
+			(uuid "56c4f638-480b-4c55-92ae-13f5935dbced")
 		)
 		(pin "6"
-			(uuid "d864632d-4562-4434-a9b1-85cdddb5165a")
+			(uuid "d3eb172a-4b52-49e6-944f-de97005f25be")
 		)
 		(pin "8"
-			(uuid "e97b3e69-f14f-43d1-8bf9-376f4ab83ba7")
+			(uuid "bdf0ab47-d89f-4614-9303-abeb11a75648")
 		)
 		(pin "7"
-			(uuid "d8483664-a2e2-4580-9934-03cd63abf039")
+			(uuid "c215cf54-69b6-4dc6-9db1-336457a79c7b")
 		)
 		(pin "3"
-			(uuid "9507bd49-86bc-4ad8-92c7-1ea80bac7696")
+			(uuid "c07e8a36-0481-458b-b0ba-c44e7ef62686")
 		)
 		(pin "18"
-			(uuid "c84617f2-8d5c-4a9f-92c0-47d30788b6bc")
+			(uuid "0642c08c-962e-4345-be41-71a676751e2b")
 		)
 		(pin "16"
-			(uuid "adf3c309-0eee-4a82-b3c7-b9b8ddf0a92d")
+			(uuid "e6a37f3e-76af-4306-bb25-2e39bc2f21ee")
 		)
 		(pin "17"
-			(uuid "27ff044a-8971-4e62-9a5f-6adf1466d27c")
+			(uuid "168edc2e-bdef-44ef-864d-d6f830635b70")
 		)
 		(pin "5"
-			(uuid "3ce23386-45ac-4308-9b72-602a09f90aa2")
+			(uuid "9c1421de-857f-4471-b9d2-5d2929f67615")
 		)
 		(pin "4"
-			(uuid "dbe0cb97-4d8a-45e7-a6f1-a2f238032e4e")
+			(uuid "985c9f99-e3a5-42a9-8888-fecadc5d969f")
 		)
 		(pin "13"
-			(uuid "ec0c4161-c8b2-48fa-a0c3-8e1382f969f0")
+			(uuid "38d2b420-8814-4972-aebe-b7385552d8a1")
 		)
 		(pin "12"
-			(uuid "313e32e2-c39a-453c-ac9f-30d0828cf029")
+			(uuid "97a53d89-a0d2-42a5-b67a-c2c89da10c74")
 		)
 		(pin "22"
-			(uuid "c28e6ed2-6b58-4f34-b2c0-2dfa5f0e2e2c")
+			(uuid "5db3a610-5404-4ca6-938d-201ca4a82e42")
 		)
 		(pin "15"
-			(uuid "ebb66663-0c5c-4dda-9505-3396f3b6277f")
+			(uuid "59a70f2c-add5-4728-8741-f5f7cfeb796d")
 		)
 		(pin "1"
-			(uuid "cb1adc7f-ccff-4181-9035-516ec96b1ac3")
+			(uuid "a6cfa531-7ed7-4719-b663-48b483a6a4e0")
 		)
 		(pin "2"
-			(uuid "8ddd951d-edad-4f95-a03c-d151de1fcc49")
+			(uuid "fc4935ed-7d8f-49d5-8eb7-11ef31197777")
 		)
 		(pin "10"
-			(uuid "c98a021e-3354-43ba-98d9-ba1b631a3e37")
+			(uuid "4c0ea6b7-3e33-4cb5-8535-6e4bbf8ecd47")
 		)
 		(pin "11"
-			(uuid "dd23d457-82cb-4d0e-bffc-d57f208ba8c8")
+			(uuid "8374ff0d-b228-4f8e-8293-c0b958c990b9")
 		)
 		(pin "19"
-			(uuid "69bddccf-9177-43d3-8e78-e12977ddcbfa")
+			(uuid "f62caf77-f7f8-4224-9921-8a391d8b23a7")
 		)
 		(instances
 			(project "reverse engineering gas leak sensor"
-				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/01d62a12-06f3-4f09-9401-65033d31d6b7"
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/c02cc885-1f41-43c4-a7ce-2450c3fc4da4"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1961,20 +1961,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "597b5e8f-1d99-45a8-9b53-4a5a7af888f7")
+			(uuid "0d079f9f-88e2-405b-9b04-842b371b9e7a")
 		)
 		(pin "1"
-			(uuid "cc9c41be-b221-4f0b-a88b-e675ed5c68c1")
+			(uuid "df4fb504-b4d9-4df0-8eaa-73a2bc7e001e")
 		)
 		(pin "3"
-			(uuid "dc3b9ffa-18c6-4ba5-b17c-2a1c129a848e")
+			(uuid "41109893-a121-426f-b7e4-f93b511b15d9")
 		)
 		(pin "4"
-			(uuid "552fbb8c-b047-4f87-90a0-ca90b307c9b4")
+			(uuid "0a3e913b-1415-40a4-aca2-5bd63bf088a1")
 		)
 		(instances
 			(project "reverse engineering gas leak sensor"
-				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/01d62a12-06f3-4f09-9401-65033d31d6b7"
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/c02cc885-1f41-43c4-a7ce-2450c3fc4da4"
 					(reference "D1")
 					(unit 1)
 				)
@@ -1991,7 +1991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bac36fc4-fb3d-419c-a628-61b459f28867")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 20.32 25.4 0)
 			(effects
 				(font
@@ -2036,12 +2036,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d8ab3bf-3a06-4ede-ab7f-346eb22e249a")
+			(uuid "3b8fb032-ac47-480f-9ce9-3b9d072d7f7c")
 		)
 		(instances
 			(project "reverse engineering gas leak sensor"
-				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/01d62a12-06f3-4f09-9401-65033d31d6b7"
-					(reference "#PWR02")
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/c02cc885-1f41-43c4-a7ce-2450c3fc4da4"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2104,68 +2104,68 @@
 			)
 		)
 		(pin "14"
-			(uuid "f19ea33b-9872-4c5d-8ed0-c473304975a8")
+			(uuid "c6817619-80bb-420c-b377-2d1053cc27a0")
 		)
 		(pin "15"
-			(uuid "ad910568-52b1-43e2-8852-25fc3536330b")
+			(uuid "9a428458-1934-4c3b-9ed4-2622a4e5dd3a")
 		)
 		(pin "13"
-			(uuid "7c372aa1-f7f4-43c0-8212-edb3a9add160")
+			(uuid "7aad99e1-2b8d-4d2f-a1b4-c4d6abe38f6b")
 		)
 		(pin "6"
-			(uuid "05f4dd23-bac8-408f-bf15-407654ef0192")
+			(uuid "689e200e-9ed5-4160-a037-0d6d990d622f")
 		)
 		(pin "18"
-			(uuid "243f6ba1-79c5-413b-a207-64f1bfae0fdf")
+			(uuid "0d455c6b-b295-44d0-ad61-656d455cfed9")
 		)
 		(pin "2"
-			(uuid "a62a5bbb-79b0-4e82-adbb-4926fabb77b2")
+			(uuid "52b85943-54bd-4da2-9393-8aac1532e00a")
 		)
 		(pin "3"
-			(uuid "87a540d2-7bbe-4aa7-a95d-477032514d5a")
+			(uuid "68525d50-9334-46b3-891c-f956c403d8c0")
 		)
 		(pin "5"
-			(uuid "bf2acb90-68d8-4e0a-938a-88c22e793a12")
+			(uuid "373d81ee-8e5f-4ea5-b94d-e420968b9c80")
 		)
 		(pin "8"
-			(uuid "924bf07c-9662-44e2-acda-6b16b484164a")
+			(uuid "ff8f4a91-042b-4f3d-b0a5-816c6a9512c2")
 		)
 		(pin "9"
-			(uuid "accde714-0b82-4d0e-b7e6-f40322e0dc37")
+			(uuid "141fbd83-ba3c-4d07-ae3a-40583a375c98")
 		)
 		(pin "7"
-			(uuid "d3aacb75-df0c-486f-89ec-a1346bb9efc0")
+			(uuid "590a7f3a-34c2-45cb-ac3b-abba0cb53aef")
 		)
 		(pin "19"
-			(uuid "301175b4-e3b3-44da-8c24-1595c943ed64")
+			(uuid "16bb204b-4084-4e5e-8b7b-921dbd191ece")
 		)
 		(pin "20"
-			(uuid "a1c55926-1942-406f-864e-5755753d66f8")
+			(uuid "6dae7810-2f4a-40f4-9b03-66952d4c66d3")
 		)
 		(pin "1"
-			(uuid "28744b09-be67-4b31-9422-57f1f3f2769c")
+			(uuid "3bb4712e-e6bb-44ba-9c92-e98e79aedb8d")
 		)
 		(pin "11"
-			(uuid "e4fcfdd7-dbb3-4b2f-80c1-cc3513009bd0")
+			(uuid "85c2b7d3-c2cf-465c-aa0e-029fc7aa7dc4")
 		)
 		(pin "16"
-			(uuid "f3971c2b-8827-474d-8d69-d3b565c4c399")
+			(uuid "d2d754f4-88cc-4632-961f-53221a8b272e")
 		)
 		(pin "17"
-			(uuid "251ea90b-398f-4f81-986a-dfe2f0dab3c1")
+			(uuid "1acc6096-f833-41c7-96db-90eec57bef00")
 		)
 		(pin "4"
-			(uuid "6529b681-dc8e-4dc8-b675-8e965067bcab")
+			(uuid "871d24ac-63ef-4395-946b-5f830fe22f61")
 		)
 		(pin "10"
-			(uuid "be480462-af9c-450d-9dab-9ef7a04b0dca")
+			(uuid "1b12f31d-d567-45d3-a336-921b0d5f48c0")
 		)
 		(pin "12"
-			(uuid "0d1b0f34-587a-405d-98b9-f72117d02656")
+			(uuid "7be4e85b-6fc6-4fbb-ad79-8ad88999bda2")
 		)
 		(instances
 			(project "reverse engineering gas leak sensor"
-				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/01d62a12-06f3-4f09-9401-65033d31d6b7"
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03/c02cc885-1f41-43c4-a7ce-2450c3fc4da4"
 					(reference "U2")
 					(unit 1)
 				)
