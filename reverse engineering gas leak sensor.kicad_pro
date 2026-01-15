@@ -279,6 +279,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "5-33_VoltRegulatorOut": [
+        "3.3V"
+      ],
       "Net-(U3-VOUT)": [
         "5VA"
       ],
