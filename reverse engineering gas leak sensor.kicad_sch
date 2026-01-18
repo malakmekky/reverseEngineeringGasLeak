@@ -5464,6 +5464,10 @@
 		(at 434.34 128.27)
 		(uuid "5db4a17b-e326-4172-87e1-094d91c55665")
 	)
+	(no_connect
+		(at 370.84 191.77)
+		(uuid "add5f6b3-91d0-4fea-8dff-39da5cea508c")
+	)
 	(wire
 		(pts
 			(xy 67.31 228.6) (xy 67.31 227.33)
@@ -5493,6 +5497,16 @@
 			(type default)
 		)
 		(uuid "021b52e5-7ef5-4d63-8c11-ea4bd6c5ed48")
+	)
+	(wire
+		(pts
+			(xy 365.76 186.69) (xy 370.84 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02208788-f896-4158-b97d-81d3ecd26eee")
 	)
 	(wire
 		(pts
@@ -6093,6 +6107,16 @@
 			(type default)
 		)
 		(uuid "387b53b3-ba7d-4ce9-a09a-0e2aab298422")
+	)
+	(wire
+		(pts
+			(xy 411.48 148.59) (xy 411.48 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3883d483-43f7-4d39-8396-5755fd892600")
 	)
 	(wire
 		(pts
@@ -7986,16 +8010,6 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 154.94) (xy 293.37 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef6b875b-6e02-4de6-89c5-6ed94e8cf820")
-	)
-	(wire
-		(pts
 			(xy 153.67 113.03) (xy 156.21 113.03)
 		)
 		(stroke
@@ -8003,6 +8017,16 @@
 			(type default)
 		)
 		(uuid "f0b01fde-cd6b-49aa-8cdc-f4a1e049ca5b")
+	)
+	(wire
+		(pts
+			(xy 293.37 154.94) (xy 416.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0eb1e79-1fbc-4e82-9cad-fede4733791b")
 	)
 	(wire
 		(pts
@@ -8244,6 +8268,72 @@
 		)
 		(uuid "faff0a0a-af9a-4c30-9905-4596e0c5d966")
 	)
+	(global_label "STM_PIN5"
+		(shape input)
+		(at 370.84 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0122399d-4ddf-4be4-8aa9-cbab8937fb4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.8439 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_PIN15"
+		(shape input)
+		(at 445.77 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11b50787-de14-4d7d-89fe-6052e6e70caa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 432.5644 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_PIN6"
+		(shape input)
+		(at 370.84 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17e60abc-4e4b-454b-9d08-18f0f923e2b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.8439 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED2"
 		(shape input)
 		(at 168.91 125.73 180)
@@ -8464,6 +8554,28 @@
 			)
 		)
 	)
+	(global_label "STM_PIN15"
+		(shape input)
+		(at 254 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86365c18-6e87-4652-8a77-05ba83f988ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.7944 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5-33_+3.3V"
 		(shape input)
 		(at 379.73 113.03 180)
@@ -8477,6 +8589,28 @@
 		(uuid "8971e3a1-542e-4762-975d-2861b61beed0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 364.8915 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_PIN2"
+		(shape input)
+		(at 411.48 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90930129-f946-4dfc-a2dc-60a9cfaf7d34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.48 191.0661 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,6 +8677,28 @@
 		(uuid "ddb8d41b-86e7-4f14-8a68-43f76d5da496")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 474.98 114.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_PIN2"
+		(shape input)
+		(at 284.48 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f77fbff9-75c2-4048-8e63-605c080cb845")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.4761 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,6 +10309,73 @@
 			(project "reverse engineering gas leak sensor"
 				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 411.48 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ef5a0a8-3408-4e7a-8965-b35a7b7c211d")
+		(property "Reference" "R40"
+			(at 411.48 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 413.766 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 413.258 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 411.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "365036fe-8c21-4703-acde-e28e40ff90d7")
+		)
+		(pin "2"
+			(uuid "2ccb7967-c990-4ca2-acff-0146b3c2ff7e")
+		)
+		(instances
+			(project "reverse engineering gas leak sensor"
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -12762,10 +12985,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7925e211-dfc5-4d96-835c-dec1be1d0956")
 		(property "Reference" "R24"
-			(at 243.84 114.3 90)
+			(at 244.094 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12995,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 243.84 116.84 90)
+			(at 244.094 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13455,6 +13677,73 @@
 			(project "reverse engineering gas leak sensor"
 				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 449.58 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f292507-17b4-4847-ba55-452cf2178662")
+		(property "Reference" "R45"
+			(at 449.58 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 449.58 164.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 449.58 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 449.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 449.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c2ff74d-dbbb-4152-b22f-d011a94a523c")
+		)
+		(pin "2"
+			(uuid "d1f8a9c3-4a64-4f03-9355-e5c3b751213c")
+		)
+		(instances
+			(project "reverse engineering gas leak sensor"
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -14775,7 +15064,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 288.29 113.03 90)
+		(at 411.48 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14783,7 +15072,7 @@
 		(dnp no)
 		(uuid "af0aa60b-cdb5-4042-a94a-cbf2a25d74ac")
 		(property "Reference" "R41"
-			(at 288.29 113.03 90)
+			(at 411.48 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14791,7 +15080,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 288.29 115.316 90)
+			(at 413.766 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14799,7 +15088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 114.808 90)
+			(at 413.258 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14808,7 +15097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 113.03 0)
+			(at 411.48 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14817,7 +15106,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 288.29 113.03 0)
+			(at 411.48 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15476,71 +15765,6 @@
 			(project "reverse engineering gas leak sensor"
 				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 414.02 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5c20b53-1cfc-491b-ae68-081a39dde3e2")
-		(property "Reference" "#PWR026"
-			(at 414.02 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 414.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 414.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 414.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 414.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "270ac3b3-62bd-44f6-a315-747a14cf44a4")
-		)
-		(instances
-			(project "reverse engineering gas leak sensor"
-				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17006,6 +17230,73 @@
 			(project ""
 				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 365.76 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0685cfd-8d63-431a-b8bf-5e7eda87e76d")
+		(property "Reference" "#PWR026"
+			(at 359.41 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 365.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c129937-53a0-4675-b304-bb26cbf45493")
+		)
+		(instances
+			(project "reverse engineering gas leak sensor"
+				(path "/408e2ccf-0846-4a9f-a9c5-211b02235e03"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
