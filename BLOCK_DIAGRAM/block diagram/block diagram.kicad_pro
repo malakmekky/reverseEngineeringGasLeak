@@ -411,6 +411,14 @@
     [
       "290c0625-1e23-4ef7-8910-f1eb5378fd87",
       "Root"
+    ],
+    [
+      "46229e74-cb6e-4f48-8e10-26ccf9ffc6c9",
+      "old schem"
+    ],
+    [
+      "3301a33b-d9cb-4e42-9077-605c75c17d6f",
+      "sensor module"
     ]
   ],
   "text_variables": {}
