@@ -239,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -277,7 +278,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(C4-Pad2)": [
+        "N"
+      ],
+      "unconnected-(F1-Pad1)": [
+        "L"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -413,11 +421,11 @@
       "Root"
     ],
     [
-      "46229e74-cb6e-4f48-8e10-26ccf9ffc6c9",
+      "645251e2-b784-4e24-8757-44ff6e2afd31",
       "old schem"
     ],
     [
-      "3301a33b-d9cb-4e42-9077-605c75c17d6f",
+      "2896cd2e-5f4f-431e-bdb1-bad664ad9ef5",
       "sensor module"
     ]
   ],
