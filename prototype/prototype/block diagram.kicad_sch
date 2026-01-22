@@ -1296,145 +1296,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1742,6 +1603,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MQ-6_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1924,6 +2040,1921 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:C_0.1u_0805_YAGEO"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1uF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Photon:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 100nF X7R ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0805JRX7R7BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C520082"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0.1u_0805_YAGEO_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0.1u_0805_YAGEO_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:C_10nF_0805_YAGEO"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10nF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Photon:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 10nF NP0 ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0805JKNPO7BN103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C527200"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10nF_0805_YAGEO_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10nF_0805_YAGEO_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:C_10u_0805_SAMSUNG"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Photon:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL21A106KOQNNNE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1713"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10u_0805_SAMSUNG_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10u_0805_SAMSUNG_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:C_1uF_0805_MURATA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Photon:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP.,1uF,X7R,50V,10%,0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM21BR71H105KA12L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C77083"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1uF_0805_MURATA_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1uF_0805_MURATA_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:C_220u_TH_HRK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "220u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Photon:CP_Radial_D8.0mm_P3.50mm"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "220uF 35V ±20% Through Hole,D8xL12mm Aluminum Electrolytic Capacitors - Leaded ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "35V220uF CD110"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2960236"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_220u_TH_HRK_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_220u_TH_HRK_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:C_22u_1206_SAMSUNG"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Photon:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10V 22uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL31A226KPHNNNE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5672"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_22u_1206_SAMSUNG_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_22u_1206_SAMSUNG_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:R_100_0805_YAGEO"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Photon:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "250mW Thick Film Resistor 150V ±100ppm/℃ ±1% 100Ω 0805 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0805FR-7W100RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C723351"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_100_0805_YAGEO_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_100_0805_YAGEO_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:R_10k_0805_UNI-ROYAL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Photon:R_0805_2012Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0805W8F1002T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C17414"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_10k_0805_UNI-ROYAL_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10k_0805_UNI-ROYAL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:R_1k_0805_RALEC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Photon:R_0805_2012Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "125mW Thick Film Resistor 150V ±100ppm/℃ ±5% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RTT05102JTP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C103913"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1k_0805_RALEC_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1k_0805_RALEC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:R_330_0805_YAGEO"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Photon:R_0805_2012Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 330Ω 0805 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0805FR-13330RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C4262771"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_330_0805_YAGEO_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_330_0805_YAGEO_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Photon2:R_4.7k_0805_YAGEO"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Photon:R_0805_2012Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0805FR-134K7L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C4176634"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_4.7k_0805_YAGEO_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_4.7k_0805_YAGEO_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3746,6 +5777,16 @@
 		)
 		(uuid "d79aa6bd-e01e-498b-8220-84565d0e6d4d")
 	)
+	(text "STATUS LEDS"
+		(exclude_from_sim no)
+		(at 135.89 121.92 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "dfbf2b62-ec16-4a16-974f-ff2f865fe13b")
+	)
 	(junction
 		(at 266.7 149.86)
 		(diameter 0)
@@ -3753,7 +5794,7 @@
 		(uuid "023e2821-3761-46d6-a6e0-30223ae7dc1c")
 	)
 	(junction
-		(at 81.28 44.45)
+		(at 67.31 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16113cb1-ff93-4e33-911d-c55579ce8e4f")
@@ -3765,7 +5806,7 @@
 		(uuid "191200b2-52cf-4bf7-929d-89cb7ebcadfa")
 	)
 	(junction
-		(at 85.09 44.45)
+		(at 71.12 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19277e5e-417b-43ed-aeb5-2b68db7cee78")
@@ -3777,7 +5818,7 @@
 		(uuid "1fc75db1-629c-4381-84df-df80d635326c")
 	)
 	(junction
-		(at 81.28 33.02)
+		(at 67.31 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423faef5-202b-4272-8094-4a4345bcf318")
@@ -3795,7 +5836,7 @@
 		(uuid "485632cd-bf7f-473a-94fa-96547cf4ffab")
 	)
 	(junction
-		(at 86.36 33.02)
+		(at 72.39 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b142305-29a5-406a-980b-29b2c3275620")
@@ -3807,7 +5848,7 @@
 		(uuid "58c29f21-c2ca-470a-bfb2-25a3bf2f095a")
 	)
 	(junction
-		(at 46.99 40.64)
+		(at 33.02 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dbe9441-0349-4b2a-a7ad-94643d7a7efb")
@@ -3921,10 +5962,26 @@
 		(uuid "ef3c5dd8-9ddf-4331-b5c7-a60dd2b4c8f3")
 	)
 	(junction
+		(at 135.89 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0b87fee-f451-49f0-b7a3-ceb9acaa93d0")
+	)
+	(junction
 		(at 214.63 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f743e202-6247-4b3d-9b32-727c44053b18")
+	)
+	(junction
+		(at 135.89 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde5cfdb-dd2e-451a-86b2-eff7fde04c6b")
+	)
+	(no_connect
+		(at 143.51 151.13)
+		(uuid "bbb46dfd-f4db-4eb5-91bd-bf4c36335229")
 	)
 	(wire
 		(pts
@@ -3948,7 +6005,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 44.45) (xy 74.93 40.64)
+			(xy 60.96 40.64) (xy 60.96 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3968,7 +6025,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 33.02) (xy 81.28 33.02)
+			(xy 60.96 29.21) (xy 67.31 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3988,7 +6045,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 40.64) (xy 54.61 40.64)
+			(xy 33.02 36.83) (xy 40.64 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4048,13 +6105,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 33.02) (xy 81.28 33.02)
+			(xy 72.39 29.21) (xy 67.31 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "19d20e02-60c3-48bf-bcfd-3a546d9a8d3d")
+	)
+	(wire
+		(pts
+			(xy 135.89 143.51) (xy 149.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d97959-e7c1-4d2e-97da-7c15c2d03835")
 	)
 	(wire
 		(pts
@@ -4128,7 +6195,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 39.37) (xy 46.99 40.64)
+			(xy 33.02 35.56) (xy 33.02 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4158,7 +6225,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 33.02) (xy 74.93 35.56)
+			(xy 60.96 29.21) (xy 60.96 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4198,7 +6265,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 40.64) (xy 46.99 43.18)
+			(xy 33.02 36.83) (xy 33.02 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4278,6 +6345,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 158.75) (xy 135.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cab72d7-438d-483b-9dde-dc4ab685ea50")
+	)
+	(wire
+		(pts
 			(xy 252.73 78.74) (xy 252.73 80.01)
 		)
 		(stroke
@@ -4298,7 +6375,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 44.45) (xy 81.28 44.45)
+			(xy 60.96 40.64) (xy 67.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4415,6 +6492,16 @@
 			(type default)
 		)
 		(uuid "7937e09d-e118-46e1-8977-6246c3a02dc8")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b44cb03-98be-43e4-bed8-a4ea49bb4bf8")
 	)
 	(wire
 		(pts
@@ -4568,7 +6655,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 81.28 34.29)
+			(xy 67.31 29.21) (xy 67.31 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4618,7 +6705,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 35.56) (xy 46.99 36.83)
+			(xy 33.02 31.75) (xy 33.02 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4658,17 +6745,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 17.78) (xy 269.24 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3b9b108-ff65-4072-beb5-91a5758b1975")
-	)
-	(wire
-		(pts
-			(xy 81.28 44.45) (xy 81.28 41.91)
+			(xy 67.31 40.64) (xy 67.31 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4728,23 +6805,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 35.56) (xy 46.99 35.56)
+			(xy 40.64 31.75) (xy 33.02 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9ed2996-79d9-409a-9ec0-534c841c7379")
-	)
-	(wire
-		(pts
-			(xy 132.08 67.31) (xy 133.35 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb8648fe-9c39-4d9e-97bf-8f230d644224")
 	)
 	(wire
 		(pts
@@ -4778,6 +6845,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 82.55) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05b7d7d-0de4-4ffb-a178-3d5823ddb90e")
+	)
+	(wire
+		(pts
 			(xy 148.59 100.33) (xy 148.59 107.95)
 		)
 		(stroke
@@ -4795,6 +6872,16 @@
 			(type default)
 		)
 		(uuid "d53e41f7-b95e-45aa-ab49-68a9bd5e86ee")
+	)
+	(wire
+		(pts
+			(xy 149.86 154.94) (xy 149.86 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82f8942-1e3b-4e3b-a341-2f5017376a73")
 	)
 	(wire
 		(pts
@@ -4845,6 +6932,16 @@
 			(type default)
 		)
 		(uuid "e6a700ab-bf96-4dd3-9cba-3e5e2f3e25d7")
+	)
+	(wire
+		(pts
+			(xy 116.84 151.13) (xy 120.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7de45c1-a1fe-4161-a6c0-730ec5d4b222")
 	)
 	(wire
 		(pts
@@ -4918,13 +7015,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 44.45) (xy 81.28 44.45)
+			(xy 71.12 40.64) (xy 67.31 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd224343-78bd-40e9-a4f3-cc44d69e3fc9")
+	)
+	(wire
+		(pts
+			(xy 149.86 143.51) (xy 149.86 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd62560f-8a58-4b1e-8862-25cb972e1378")
 	)
 	(wire
 		(pts
@@ -5076,6 +7183,16 @@
 		)
 		(uuid "5efca0a1-3606-4c35-b4a7-9322b40cbbde")
 	)
+	(label "STATUS_LED"
+		(at 116.84 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60da71aa-63eb-4cd2-a536-abf8cdfdd6c5")
+	)
 	(label ""
 		(at 35.56 119.38 0)
 		(effects
@@ -5107,7 +7224,7 @@
 		(uuid "7707f6ac-4c5d-462a-81f3-09e20d87d7c1")
 	)
 	(label "L"
-		(at 46.99 36.83 0)
+		(at 33.02 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5115,16 +7232,6 @@
 			(justify left bottom)
 		)
 		(uuid "83acae6b-167d-44d6-936e-c70d4f1cf2d1")
-	)
-	(label "STATUS_LED"
-		(at 269.24 17.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86cf8e0d-25d6-4490-81cf-f150b6a277f1")
 	)
 	(label "ESP_TXD0"
 		(at 132.08 36.83 180)
@@ -5135,6 +7242,16 @@
 			(justify right bottom)
 		)
 		(uuid "9928ece2-943b-4d77-b021-4b662f857d5c")
+	)
+	(label "STATUS_LED"
+		(at 132.08 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b32f064-2c90-46e3-9f80-1186afefec68")
 	)
 	(label "CS_3"
 		(at 220.98 146.05 0)
@@ -5166,18 +7283,8 @@
 		)
 		(uuid "b341514c-1ae9-4e5d-bed7-8283ac1b93c9")
 	)
-	(label "STATUS_LED"
-		(at 132.08 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b73ca18d-138c-46a3-91a8-3911ea0bb3be")
-	)
 	(label "N"
-		(at 46.99 39.37 0)
+		(at 33.02 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5206,7 +7313,7 @@
 		)
 		(uuid "c18c7816-73bd-4080-9098-a1de9d702aa5")
 	)
-	(label "IO_16_Detect"
+	(label "IO_16_on"
 		(at 266.7 52.07 0)
 		(effects
 			(font
@@ -5236,7 +7343,7 @@
 		)
 		(uuid "e753a87e-2e4d-4b3d-bc6f-31846f7b24cd")
 	)
-	(label "IO_16_Detect"
+	(label "IO_16_on"
 		(at 132.08 59.69 180)
 		(effects
 			(font
@@ -5259,7 +7366,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 46.99 43.18 180)
+		(at 33.02 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5268,7 +7375,7 @@
 		)
 		(uuid "07b9671f-f8df-4bba-95d0-8d4451d35727")
 		(property "Netclass" "N"
-			(at 46.228 47.244 0)
+			(at 32.258 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +7384,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -7.62 11.43 0)
+			(at -21.59 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +7396,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 46.99 35.56 0)
+		(at 33.02 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5298,7 +7405,7 @@
 		)
 		(uuid "8a184136-bb6b-4058-8bc0-212ba5526e5e")
 		(property "Netclass" "L"
-			(at 46.736 30.988 0)
+			(at 32.766 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +7414,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -7.62 3.81 0)
+			(at -21.59 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +7490,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "LED:WS2812B")
+		(at 135.89 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ac14f2-a568-40fd-ae25-05e6b3df28e5")
+		(property "Reference" "D1"
+			(at 147.32 144.7098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 147.32 147.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 137.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 138.43 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 135.89 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e61299c-4339-4833-8534-668c14446940")
+		)
+		(pin "3"
+			(uuid "244b339c-e351-4e86-850a-8c89fffd8d28")
+		)
+		(pin "4"
+			(uuid "f27d9434-eec0-4d51-ac1e-0177905e0529")
+		)
+		(pin "2"
+			(uuid "ae373616-7b69-422f-bded-b9f6767e0b3b")
+		)
+		(instances
+			(project "block diagram"
+				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Photon2:R_4.7k_0805_YAGEO")
 		(at 266.7 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5409,8 +7592,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 264.922 153.67 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 267.716 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +7610,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-134K7L"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4176634"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -5453,7 +7654,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 44.45 0)
+		(at 71.12 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5462,7 +7663,7 @@
 		(fields_autoplaced yes)
 		(uuid "11bf9321-abea-49b5-a3a3-77154afa4cf6")
 		(property "Reference" "#PWR011"
-			(at 85.09 50.8 0)
+			(at 71.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +7672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 49.53 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +7680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 44.45 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +7689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 44.45 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +7698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 44.45 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +7719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_4.7k_0805_YAGEO")
 		(at 193.04 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5544,8 +7745,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 191.262 139.7 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 194.056 139.954 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +7763,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-134K7L"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4176634"
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -5581,6 +7800,91 @@
 			(project "block diagram"
 				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Photon2:R_330_0805_YAGEO")
+		(at 124.46 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d7149b2-e4d2-414b-8141-e18d2a58ad87")
+		(property "Reference" "R4"
+			(at 124.46 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 124.46 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 124.714 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 330Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-13330RL"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4262771"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de786de8-0709-46cd-98f2-dd021410379b")
+		)
+		(pin "2"
+			(uuid "727d8cce-e531-4c6c-999d-9a75c95a5581")
+		)
+		(instances
+			(project ""
+				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5949,86 +8253,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 269.24 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c54a05a-c634-49ef-b34a-6f48f25a8681")
-		(property "Reference" "D3_Green1"
-			(at 273.05 33.3374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.05 35.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 269.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 269.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2877f17-134f-4ff2-80d8-559a89bec5f4")
-		)
-		(pin "1"
-			(uuid "655be4a0-d41f-4e67-96b3-16190e5f1bfc")
-		)
-		(instances
-			(project "block diagram"
-				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
-					(reference "D3_Green1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_4.7k_0805_YAGEO")
 		(at 214.63 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6054,8 +8279,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 212.852 142.24 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 215.646 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +8297,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-134K7L"
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4176634"
 			(at 214.63 142.24 0)
 			(effects
 				(font
@@ -6097,7 +8340,72 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "power:GND")
+		(at 135.89 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39fe697d-cba6-40eb-9107-2d0a1ff3ca20")
+		(property "Reference" "#PWR024"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb5f506-3c85-4c96-b490-9da9446354b4")
+		)
+		(instances
+			(project "block diagram"
+				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Photon2:R_100_0805_YAGEO")
 		(at 267.97 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6121,8 +8429,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 267.97 97.028 90)
+		(property "Footprint" "Photon:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 268.224 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +8447,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "250mW Thick Film Resistor 150V ±100ppm/℃ ±1% 100Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 267.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-7W100RL"
+			(at 267.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C723351"
 			(at 267.97 95.25 0)
 			(effects
 				(font
@@ -6302,7 +8628,7 @@
 	)
 	(symbol
 		(lib_id "Converter_ACDC:HLK-5M05")
-		(at 64.77 38.1 0)
+		(at 50.8 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6310,7 +8636,7 @@
 		(dnp no)
 		(uuid "482e0a5f-58a0-4278-ab54-dfe6f6c4517f")
 		(property "Reference" "PS1"
-			(at 64.77 29.21 0)
+			(at 50.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +8644,7 @@
 			)
 		)
 		(property "Value" "HLK-5M05"
-			(at 64.516 31.75 0)
+			(at 50.546 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +8652,7 @@
 			)
 		)
 		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
-			(at 64.77 45.72 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +8661,7 @@
 			)
 		)
 		(property "Datasheet" "http://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%975W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%915W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V2.8.pdf"
-			(at 74.93 48.26 0)
+			(at 60.96 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +8670,7 @@
 			)
 		)
 		(property "Description" "Compact AC/DC board mount power module 5W, 5V 1A"
-			(at 64.77 38.1 0)
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,8 +8700,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 38.1 0)
+		(lib_id "Photon2:C_220u_TH_HRK")
+		(at 67.31 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6383,7 +8709,7 @@
 		(dnp no)
 		(uuid "4a3e8005-271c-4d04-b022-2d5378c57aad")
 		(property "Reference" "C5"
-			(at 81.28 36.322 0)
+			(at 67.31 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +8718,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 82.042 40.386 0)
+			(at 68.072 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,8 +8726,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
-			(at 82.2452 41.91 0)
+		(property "Footprint" "Photon:CP_Radial_D8.0mm_P3.50mm"
+			(at 68.2752 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +8736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 38.1 0)
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,8 +8744,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 81.28 38.1 0)
+		(property "Description" "220uF 35V ±20% Through Hole,D8xL12mm Aluminum Electrolytic Capacitors - Leaded ROHS"
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "35V220uF CD110"
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2960236"
+			(at 67.31 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +8812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Photon:LED-SMD_L2.0-W1.25-RD-GREEN"
 			(at 252.73 52.07 0)
 			(effects
 				(font
@@ -6520,7 +8864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_4.7k_0805_YAGEO")
 		(at 245.11 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6547,8 +8891,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 243.332 132.08 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 246.126 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +8909,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-134K7L"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4176634"
 			(at 245.11 132.08 0)
 			(effects
 				(font
@@ -6890,7 +9252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_1uF_0805_MURATA")
 		(at 38.1 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6916,7 +9278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_0805_2012Metric"
 			(at 39.0652 142.24 0)
 			(effects
 				(font
@@ -6934,8 +9296,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP.,1uF,X7R,50V,10%,0805"
 			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR71H105KA12L"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 38.1 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +9339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_10k_0805_UNI-ROYAL")
 		(at 261.62 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6986,8 +9366,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 259.842 99.06 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 262.636 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +9384,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 261.62 99.06 0)
 			(effects
 				(font
@@ -7029,7 +9427,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_10u_0805_SAMSUNG")
 		(at 67.31 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7056,7 +9454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_0805_2012Metric"
 			(at 68.2752 184.15 0)
 			(effects
 				(font
@@ -7074,8 +9472,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNE"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 67.31 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +9731,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 86.36 33.02 270)
+		(at 72.39 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7324,7 +9740,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e3ddbdb-9c5d-4a42-bc66-44c268df2507")
 		(property "Reference" "TP1"
-			(at 91.44 31.7499 90)
+			(at 77.47 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,8 +9748,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 91.44 34.2899 90)
+		(property "Value" "5v"
+			(at 77.47 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7342,7 +9758,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 86.36 38.1 0)
+			(at 72.39 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,7 +9767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 38.1 0)
+			(at 72.39 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +9776,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 86.36 33.02 0)
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7545,7 +9961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_10k_0805_UNI-ROYAL")
 		(at 214.63 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7570,8 +9986,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 214.63 53.848 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 214.884 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +10004,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 214.63 52.07 0)
 			(effects
 				(font
@@ -7613,73 +10047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 269.24 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7743beb0-8426-4a25-9bbf-2165e1e1fc54")
-		(property "Reference" "#PWR016"
-			(at 269.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbe09b27-97f2-4096-a648-468ea9e93a94")
-		)
-		(instances
-			(project "block diagram"
-				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_4.7k_0805_YAGEO")
 		(at 245.11 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7705,8 +10073,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 243.332 151.13 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 246.126 151.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +10091,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-134K7L"
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4176634"
 			(at 245.11 151.13 0)
 			(effects
 				(font
@@ -7748,7 +10134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_4.7k_0805_YAGEO")
 		(at 265.43 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7774,8 +10160,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 263.652 133.35 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 266.446 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +10178,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 265.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-134K7L"
+			(at 265.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4176634"
 			(at 265.43 133.35 0)
 			(effects
 				(font
@@ -7818,7 +10222,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 41.91 36.83 0)
+		(at 27.94 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7827,7 +10231,7 @@
 		(dnp no)
 		(uuid "865887c2-b473-46ec-bceb-b5eca3db1925")
 		(property "Reference" "J2"
-			(at 28.194 45.974 0)
+			(at 27.432 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +10239,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 28.194 41.91 0)
+			(at 28.448 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +10247,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05502HBLC_1x02_P5.00mm_Horizontal"
-			(at 41.91 36.83 0)
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +10256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 36.83 0)
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +10265,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 36.83 0)
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,7 +10290,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 85.09 44.45 270)
+		(at 71.12 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7895,7 +10299,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a7e110f-18b8-4f53-91f9-c1a6808b46c1")
 		(property "Reference" "TP2"
-			(at 90.17 43.1799 90)
+			(at 76.2 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,8 +10307,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 90.17 45.7199 90)
+		(property "Value" "gnd"
+			(at 76.2 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +10317,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 85.09 49.53 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +10326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 49.53 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +10335,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 85.09 44.45 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +10356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_0.1u_0805_YAGEO")
 		(at 220.98 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7976,7 +10380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_0805_2012Metric"
 			(at 221.9452 31.75 0)
 			(effects
 				(font
@@ -7994,8 +10398,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 100nF X7R ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 220.98 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805JRX7R7BB104"
+			(at 220.98 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C520082"
+			(at 220.98 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,6 +10435,94 @@
 			(project "block diagram"
 				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Photon2:C_0.1u_0805_YAGEO")
+		(at 149.86 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8efaa55b-977a-494e-ad35-6e300e4ffc57")
+		(property "Reference" "C4"
+			(at 153.67 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 153.67 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Photon:C_0805_2012Metric"
+			(at 150.8252 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 149.86 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805JRX7R7BB104"
+			(at 149.86 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C520082"
+			(at 149.86 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a74dba8-de60-4a11-8cf3-043151e155a5")
+		)
+		(pin "2"
+			(uuid "0011523c-c008-4b95-b0da-2e66d723f517")
+		)
+		(instances
+			(project "block diagram"
+				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8184,7 +10694,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_1k_0805_RALEC")
 		(at 256.54 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8211,8 +10721,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 254.762 83.82 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 257.556 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +10739,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor 150V ±100ppm/℃ ±5% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RTT05102JTP"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C103913"
 			(at 256.54 83.82 0)
 			(effects
 				(font
@@ -8396,76 +10924,6 @@
 			(project "block diagram"
 				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 269.24 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a005f15e-6982-4c74-a143-8a7f230acd38")
-		(property "Reference" "R18"
-			(at 271.78 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330"
-			(at 271.78 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 267.462 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 269.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89116e6d-1264-48d8-ab59-b0dee64b5748")
-		)
-		(pin "2"
-			(uuid "fb9b403c-8452-4155-b453-7e4014a14f9f")
-		)
-		(instances
-			(project "block diagram"
-				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8851,6 +11309,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5068192-e99e-42eb-a37b-311f250354dd")
+		(property "Reference" "#PWR016"
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f206e17-d52a-4f40-9bba-ffba6411725d")
+		)
+		(instances
+			(project "block diagram"
+				(path "/290c0625-1e23-4ef7-8910-f1eb5378fd87"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 204.47 52.07 0)
 		(unit 1)
@@ -8944,7 +11468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Photon:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 			(at 250.825 81.28 90)
 			(effects
 				(font
@@ -8987,7 +11511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_1uF_0805_MURATA")
 		(at 232.41 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9011,7 +11535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_0805_2012Metric"
 			(at 236.22 51.1048 0)
 			(effects
 				(font
@@ -9029,8 +11553,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP.,1uF,X7R,50V,10%,0805"
 			(at 232.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR71H105KA12L"
+			(at 232.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 230.378 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,7 +11597,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 86.36 33.02 0)
+		(at 72.39 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9064,7 +11606,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5340fef-1f15-4f71-9155-44ee39cc6e39")
 		(property "Reference" "#PWR010"
-			(at 86.36 36.83 0)
+			(at 72.39 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,7 +11615,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 86.36 27.94 0)
+			(at 72.39 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +11623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 33.02 0)
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9090,7 +11632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 33.02 0)
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +11641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 33.02 0)
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +11662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Photon2:R_330_0805_YAGEO")
 		(at 260.35 52.07 270)
 		(mirror x)
 		(unit 1)
@@ -9131,25 +11673,23 @@
 		(fields_autoplaced yes)
 		(uuid "c789c5b1-58e4-4610-b6bf-880c3ac98393")
 		(property "Reference" "R19"
-			(at 261.6201 49.53 0)
+			(at 260.35 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "330"
-			(at 259.0801 49.53 0)
+			(at 260.35 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 260.35 53.848 90)
+		(property "Footprint" "Photon:R_0805_2012Metric"
+			(at 260.096 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +11706,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "125mW Thick Film Resistor ±100ppm/℃ ±1% 330Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-13330RL"
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4262771"
 			(at 260.35 52.07 0)
 			(effects
 				(font
@@ -9191,7 +11749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_22u_1206_SAMSUNG")
 		(at 212.09 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9215,7 +11773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 213.0552 31.75 0)
 			(effects
 				(font
@@ -9233,7 +11791,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10V 22uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 212.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KPHNNNE"
+			(at 212.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5672"
+			(at 212.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 212.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chinocera"
 			(at 212.09 27.94 0)
 			(effects
 				(font
@@ -9348,7 +11942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-06P-1.25DS_1x06_P1.25mm_Horizontal"
 			(at 210.82 90.17 0)
 			(effects
 				(font
@@ -9535,7 +12129,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_10u_0805_SAMSUNG")
 		(at 41.91 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9561,7 +12155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_0805_2012Metric"
 			(at 42.8752 184.15 0)
 			(effects
 				(font
@@ -9579,8 +12173,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 41.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNE"
+			(at 41.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 41.91 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +12216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_10nF_0805_YAGEO")
 		(at 48.26 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9631,7 +12243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_0805_2012Metric"
 			(at 49.2252 142.24 0)
 			(effects
 				(font
@@ -9649,7 +12261,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 10nF NP0 ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 48.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805JKNPO7BN103"
+			(at 48.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C527200"
+			(at 48.26 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 48.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 48.26 138.43 0)
 			(effects
 				(font
@@ -9938,7 +12586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Photon2:C_10u_0805_SAMSUNG")
 		(at 34.29 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9964,7 +12612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Photon:C0603"
+		(property "Footprint" "Photon:C_0805_2012Metric"
 			(at 35.2552 90.17 0)
 			(effects
 				(font
@@ -9982,8 +12630,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOQNNNE"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 34.29 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
