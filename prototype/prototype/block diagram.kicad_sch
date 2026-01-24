@@ -7127,7 +7127,7 @@
 		(uuid "ff0b3d86-4af6-45b4-847d-3047c72e106d")
 	)
 	(label "SDATA_3"
-		(at 132.08 62.23 180)
+		(at 132.08 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7197,7 +7197,7 @@
 		(uuid "289fe68e-4425-4676-9c0d-76c615a02d92")
 	)
 	(label "CLK_3"
-		(at 132.08 64.77 180)
+		(at 132.08 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7225,16 +7225,6 @@
 			(justify right bottom)
 		)
 		(uuid "36ea6d89-f432-4141-894c-b18ec3802964")
-	)
-	(label "ESP_RDD0"
-		(at 215.9 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40f60775-fa6d-4372-a730-bdc1cadfe0ac")
 	)
 	(label "CS_5"
 		(at 77.47 137.16 0)
@@ -7357,7 +7347,7 @@
 		(uuid "a355000c-0cb8-4b74-a034-98fe30277756")
 	)
 	(label "ESP_IO0"
-		(at 215.9 90.17 0)
+		(at 215.9 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7427,17 +7417,17 @@
 		(uuid "e753a87e-2e4d-4b3d-bc6f-31846f7b24cd")
 	)
 	(label "IO_16_on"
-		(at 132.08 59.69 180)
+		(at 133.35 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f2b06f84-541b-4f7b-b26d-53db90aeedf9")
+		(uuid "ee9c9972-43ab-485d-92e5-2acb1e6406af")
 	)
 	(label "ESP_TXD0"
-		(at 215.9 92.71 0)
+		(at 215.9 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7445,6 +7435,16 @@
 			(justify left bottom)
 		)
 		(uuid "f5911fe2-9c8b-48f5-8146-a13a0952594f")
+	)
+	(label "ESP_RXD0"
+		(at 215.9 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd7409c4-86eb-482f-a44e-3300a49a6154")
 	)
 	(netclass_flag ""
 		(length 2.54)
