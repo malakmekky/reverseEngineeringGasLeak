@@ -6498,6 +6498,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 87.63) (xy 133.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6831d8fe-2fa4-4b73-8290-05fe30f2c9bc")
+	)
+	(wire
+		(pts
 			(xy 198.12 146.05) (xy 193.04 146.05)
 		)
 		(stroke
@@ -7417,7 +7427,7 @@
 		(uuid "e753a87e-2e4d-4b3d-bc6f-31846f7b24cd")
 	)
 	(label "IO_16_on"
-		(at 133.35 87.63 180)
+		(at 132.08 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
